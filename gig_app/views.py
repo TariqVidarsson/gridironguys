@@ -3,5 +3,5 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse("This is the catalog index.")
+def home(request):
+    return HttpResponse("Hello, world! This is my first Django page.")

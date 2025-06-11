@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-c-&&3!*1e(y=n6iaf=e2(s6v^cnbtgcx73+vwf=dgelk5o0+^5'
+SECRET_KEY = 'django-insecure-qe@z7uneg#bo&8m2zi96@2=m-wr8nbv7=yy@8nrd!h2+ssu06^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     # Add our new application
-    'catalog.apps.CatalogConfig', # This object was created for us in /catalog/apps.py
+    # added apps
+    'gig_app',
 ]
 
 MIDDLEWARE = [
