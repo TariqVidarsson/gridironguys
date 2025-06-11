@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qe@z7uneg#bo&8m2zi96@2=m-wr8nbv7=yy@8nrd!h2+ssu06^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["gridironguys.com", "www.gridironguys.com","local_host","127.0.0.1",'104.197.211.250']
 
